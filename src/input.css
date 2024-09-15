@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@theme {
+  --font-size-fluid-xs: clamp(0.75rem, 0.571rem + 0.446vw, 1rem);
+  --font-size-fluid-sm: clamp(0.875rem, 0.696rem + 0.446vw, 1.125rem);
+  --font-size-fluid-base: clamp(1rem, 0.821rem + 0.446vw, 1.25rem);
+  --font-size-fluid-lg: clamp(1.125rem, 0.857rem + 0.67vw, 1.5rem);
+  --font-size-fluid-xl: clamp(1.25rem, 0.804rem + 1.116vw, 1.875rem);
+  --font-size-fluid-2xl: clamp(1.5rem, 0.964rem + 1.339vw, 2.25rem);
+  --font-size-fluid-3xl: clamp(1.875rem, 1.071rem + 2.009vw, 3rem);
+  --font-size-fluid-4xl: clamp(2.25rem, 1.179rem + 2.679vw, 3.75rem);
+  --font-size-fluid-5xl: clamp(3rem, 0.643rem + 4.018vw, 4.5rem);
+  --font-size-fluid-6xl: clamp(3.75rem, 6.397rem + -6.618vw, 6rem);
+  --font-size-fluid-7xl: clamp(4.5rem, 8.618rem + -10.294vw, 8rem);
+  --font-size-fluid-8xl: clamp(6rem, 11.882rem + -14.706vw, 11rem);
+  --font-size-fluid-9xl: clamp(8rem, 13.882rem + -14.706vw, 13rem);
+  --font-family-dmsans: "DM Sans", sans-serif;
+  --color-purple-100: hsl(254, 88%, 90%);
+  --color-purple-500: hsl(256, 67%, 59%);
+  --color-yellow-100: hsl(31, 66%, 93%);
+  --color-yellow-500: hsl(39, 100%, 71%);
+}
